@@ -41,14 +41,14 @@
    | 피어슨 상관계수   | -0.27  | 0.002    |
    | 스피어만 상관계수 | -0.21  | 0.019    |
 
-   [!docs/ols_regression_results.png]
+   ![회귀분석 결과 핵심 리포트](!docs/ols_regression_results.png)
 
 3. **머신러닝(RandomForest) 예측**
    - 랜덤포레스트 분류기로 사고 발생 여부 예측
    - 교차검증(5-fold)으로 일반화 성능 평가
    - 변수 중요도(feature importance) 분석
 
-   [!docs/rf_colums_relation_pyplot_output.png]
+   ![컬럼간 상관관계 시각화](docs/rf_colums_relation_pyplot_output.png)
 
 4. **시각화 및 보고서 작성**
    - 신호시간-사고수 산점도, 예측 확률 곡선 등 시각화
