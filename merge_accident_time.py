@@ -43,7 +43,7 @@ for _, time_row in time_data.iterrows():
 filtered_data = pd.DataFrame(filtered_rows)
 
 # 결과 저장
-filtered_data.to_excel("a.xlsx", index=False)
+filtered_data.to_excel("merged_accident_time.xlsx", index=False)
 
 print(f"비교가 완료되었습니다. {len(filtered_rows)}개의 데이터가 필터링되었습니다.")
-print("필터링 완료! 결과가 'a.xlsx' 파일에 저장되었습니다.")
+print("필터링 완료! 결과가 'merged_accident_time.xlsx' 파일에 저장되었습니다.")

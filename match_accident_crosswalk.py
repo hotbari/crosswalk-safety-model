@@ -51,6 +51,6 @@ else:
     print(filtered_data.head())
 
 # 결과 저장
-filtered_data.to_excel("filtered_results.xlsx", index=False)
+filtered_data.to_excel("matched_accident_crosswalk.xlsx", index=False)
 
-print("필터링 완료! 결과는 파일에 저장되었습니다.")
+print("필터링 완료! 결과는 'matched_accident_crosswalk.xlsx' 파일에 저장되었습니다.")
